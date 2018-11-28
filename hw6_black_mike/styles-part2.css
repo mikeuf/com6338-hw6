@@ -5,18 +5,18 @@
 }
 
 html {
-    height: 100vh;
+    min-height: 100%
 }
 
 body {
-    height: 100vh;
-    max-width: 960px;
+    min-height: 100%;
+    max-width: 960px !important;
     margin: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 16px;
     background: #2F7336;  
-background: -webkit-linear-gradient(to top, #AA3A38, #2F7336);  
+background: -webkit-linear-gradient(to top, #AA3A38, #ffffff);  
 background: linear-gradient(to top, #AA3A38, #2F7336); 
     background-size: cover;
     color: #fafafa;
@@ -40,6 +40,9 @@ main {
 a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6, #div1 {
@@ -49,6 +52,12 @@ h1, h2, h3, h4, h5, h6, #div1 {
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+li {
     font-family: 'Open Sans', sans-serif;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -85,6 +94,9 @@ img {
 
 figcaption {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 @media (min-width: 700px) {
